@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="dbms proj.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+	<title>⚽ League Addition - Football Statistics Management System</title>
+</head>
+<body style="background-image: url('/damn/uefa-champions-league-2013.jpg');background-size: cover;">
+		<div class="header" style="background-color:#AD2E24;">
+<br>
+<h1 style="color: white;text-align: center ; "><font face="Arial">  FOOTBALL STATISTICS MANAGEMENT SYSTEM </font></h1>
+<br>
+<a href="logout.html" style="color: white;float: right;" align="right"><b style="float: right;background-color: black;padding: 10px 10px;" align="right">LOGOUT</b></a>
+</div>
+<div class="nav" style="background-color:black;">
+<a href="table_selection.html" style="color: white;"><b>HOME</b></a>
+<a href="about.html" style="color: white;"><b>ABOUT</b></a>
+
+<a href="club_table.php" style="color: white;"><b>CLUB</b></a>
+<a href="player_table.php" style="color: white;"><b>PLAYER</b></a>
+</div>
+
+<br>
+<br>
+<div class="col-md-11" style="background-color: #f1f1f1f1;margin: 0 45px;">
+	<form action="league_addition.php" method="post">
+		<p><h2 align="center"><b>New League Addition</b></h2></p>
+		<div class="col-md-11" style="background-color: #f1f1f1f1;margin: 30px 30px;border: 5px solid black;">
+			<p><h2 style="margin: 10px 20px;"><b><u>League Details</u></b></h2></p>
+			<br>
+			<p style="margin: 10px 20px;"><b style="margin: 0 40px;">League Name* :</b><input type="text" placeholder="Enter League's Name" name="league_name" style="margin: 0 10px;" required>
+			<b style="margin: 0 40px;margin-left: 257px;">Country where it is conducted* :</b><input type="text" placeholder="Enter League's Country" name="league_country" style="margin: 0 10px;" required></p>
+			<p style="margin: 10px 20px;"><b style="margin: 0 40px;">Association Conducting the League* :</b><input type="text" placeholder="Enter the Association" name="association" style="margin: 0 10px;" required>
+			<b style="margin: 0 50px;margin-left: 100px;">Division in National Triangle* :</b><input type="text" placeholder="Enter League's Division" name="division" style="margin: 0 10px;" required></p>
+			<p style="margin: 10px 20px;"><b style="margin: 0 40px;">League ID* :</b><input type="text" placeholder="Enter League's ID" name="league_id" style="margin: 0 10px;" required></p>			
+			<br>
+			<br>
+ 			<p align="center"><button type="Submit">Next</button><button type="button" style="margin-left:15px;" >Cancel</button></p>
+		</div>
+	</form>
+</div>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>
