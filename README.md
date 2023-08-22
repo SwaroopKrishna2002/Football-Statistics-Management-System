@@ -7,3 +7,5 @@ Language used: MySQL, PHP, HTML, CSS, JavaScript.
 
 
 Requisites:  Processor: 11th Gen Intel(R) Core (TM) i3-1115G4 , Clock Speed:  3.00 GHz, Disk Space: 256GB SSD (Minimum 15GB HDD), RAM: 8 GB (Minimum 2GB), Screen Resolution: 1920 X 1080 , Visual Studio Code/Sublime Text 3, PhpMyAdmin, Windows 7 or higher, Web Browser (Google Chrome), XAMPP (Apache and MySQL).
+
+Note: The email field in the user registration page has not been validated properly for the time being and hence accepts all types of string inputs in the field. Working on validating it...
